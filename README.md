@@ -29,6 +29,7 @@ accuracy), but it performs poorly on the real world data, since it can only deci
 
 ## Future Work
 • Generate better and larger variety of images for both training and test data
+
 • Build further on the model by providing live transcription of captured video feed. This transcription can then
 be used to produce speech.
 
