@@ -16,6 +16,7 @@ data to determine each model’s performance and accuracy on real world data. Th
 varying backgrounds to enable diversity. Other pre-processing techniques such as cropping are also required to
 be able to eliminate unwanted details in the image. Since there are many output classes, it is time consuming
 to manually capture multiple images for each class.
+
 • Size of the Training Dataset: Since the training data consists of 69,600 200x200 RGB images, it takes a
 significant amount of time for the model to learn from each image for around 40 epochs. Using a CPU alone
 would cause the execution times to be much longer, hence, GPUs are required for the task.
