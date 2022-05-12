@@ -10,7 +10,15 @@ the alphabet and 3 other shapes to demonstrate Space, Delete and Nothing. We per
 multiple models with different architectures and model parameters to be able to determine the model that performs
 best on both, the provided dataset as well as on real world data.
 
-
+## Challenges
+• Generating Test Data: Since the test dataset for the problem is very small, we had to generate our own test
+data to determine each model’s performance and accuracy on real world data. The images have to be taken with
+varying backgrounds to enable diversity. Other pre-processing techniques such as cropping are also required to
+be able to eliminate unwanted details in the image. Since there are many output classes, it is time consuming
+to manually capture multiple images for each class.
+• Size of the Training Dataset: Since the training data consists of 69,600 200x200 RGB images, it takes a
+significant amount of time for the model to learn from each image for around 40 epochs. Using a CPU alone
+would cause the execution times to be much longer, hence, GPUs are required for the task.
 
 ## Conclusion
 
@@ -20,5 +28,7 @@ accuracy), but it performs poorly on the real world data, since it can only deci
 
 
 ## Future Work
-We plan to work on extending our project by working on the problem of forest fires in California since each year California faces the problem of more than a dozen forest fires. We plan to collect data related to wind, region and climate from the past years which would be helpful in creating a model that can predict fires in this region. We can also extend the work to building an application that can provide real time prediction of forest fires.
+• Generate better and larger variety of images for both training and test data
+• Build further on the model by providing live transcription of captured video feed. This transcription can then
+be used to produce speech.
 
