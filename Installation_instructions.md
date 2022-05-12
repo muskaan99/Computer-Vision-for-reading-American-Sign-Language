@@ -24,7 +24,7 @@ We trained the model on Google Colab with a Tesla P100 GPU using Pytorch.
 
 # Code Structure
 
-* The complete code for the project to train and test multiple models is in ASL_Project.ipynb
+* The complete code for the project to train and test multiple models is in ASL_Project_Notebook.ipynb
 
 # Model Files
 
