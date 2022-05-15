@@ -4,7 +4,7 @@ Download the dataset from [here](https://www.kaggle.com/datasets/grassknoted/asl
 
 Download the real-world test dataset created by us from [here](https://www.kaggle.com/datasets/muskaan3299/self-generated-test-set)
 
-Refer [Installation_instructions.md] file for more details on installation process.(https://github.com/muskaan99/Computer-Vision-for-reading-American-Sign-Language/blob/main/Installation_instructions.md)
+Refer [Installation_instructions.md] file for more details on installation process (https://github.com/muskaan99/Computer-Vision-for-reading-American-Sign-Language/blob/main/Installation_instructions.md)
 
 ## Abstract
 Despite the widespread use of sign language in recent years, it remains difficult for non-sign language speakers to
